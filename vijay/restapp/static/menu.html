@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg,yellow, #e0e0e0);
+            color: #333;
+        }
+        header {
+            background-color:crimson;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        header p {
+            font-size: 18px;
+            margin-top: 5px;
+            font-weight: lighter;
+        }
+        .menu-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .menu-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: #2a008b;
+            border-bottom: 3px solid #ddd;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .menu-grid {
+            display: flex;
+            gap: 30px;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            margin: 15px 0 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .menu-item p {
+            color: #555;
+            font-size: 12px;
+            margin: 0 10px 15px;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            font-size: 15px;
+            color: #33008b;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The yummy food</h1>
+    <p>Your favorite spot for authentic non-veg meals</p>
+</header>
+
+<div class="menu-section">
+    <h2>Chicken</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="c-biryani.jpg" alt="biriyani">
+            <h3>biriyani</h3>
+            <p>Fragrant rice cooked with chicken, spices, and herbs.</p>
+            <div class="price">₹200</div>
+        </div>
+        <div class="menu-item">
+            <img src="chicken.jpg" alt="chicken">
+            <h3>chicken</h3>
+            <p>Slow-cooked aromatic</p>
+            <div class="price">₹250</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>meals</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="meals.jpg" alt="Indian meals">
+            <h3>Indian meals</h3>
+            <p>white rice with types of sidedish</p>
+            <div class="price">₹180</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>Mutton</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="mutton.jpg" alt="mutton">
+            <h3>mutton</h3>
+            <p>mutton is marinated in flavorful spices.</p>
+            <div class="price">₹220</div>
+        </div>
+        <div class="menu-item">
+            <img src="m-briyani.jpg" alt="mutton briyani">
+            <h3>mutton briyani</h3>
+            <p>Fragrant rice cooked with mutton, spices, and herbs</p>
+            <div class="price">₹280</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>sea food</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="seafoods.jpg" alt="seafood">
+            <h3>seafood</h3>
+            <p>seafood is marinated in flavorful spices.</p>
+            <div class="price">₹220</div>
+        </div>
+        <div class="menu-item">
+            <img src="fish.jpg" alt="fish fry">
+            <h3>fish fry</h3>
+            <p>spicy fish fry</p>
+            <div class="price">₹280</div>
+        </div>
+    </div>
+</div>
+<div class="menu-section">
+    <h2>savorry</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="savoury.jpg" alt="savouries">
+            <h3>savouries</h3>
+            <p> cooked with spices, and herbs.</p>
+            <div class="price">₹180</div>
+        </div>
+        <div class="menu-item">
+            <img src="tea.jpg" alt="tea">
+            <h3>tea</h3>
+            <p>With aromatic flavorful</p>
+            <div class="price">₹35</div>
+        </div>
+        <div class="menu-item">
+            <img src="coffee.jpg" alt="coffee">
+            <h3>Coffee</h3>
+            <p>With aromatic flavorful</p>
+            <div class="price">₹30</div>
+        </div>
+        <div class="menu-item">
+            <img src="cooldrinks.jpg" alt="cooldrinks">
+            <h3>Cooldrinks</h3>
+            <p>With aromatic flavorful</p>
+            <div class="price">₹70</div>
+        </div>
+    </div>
+</div>
+<div class="menu-section">
+    <h2>Dessert</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="dessert.jpg" alt="Sweets">
+            <h3>Sweets</h3>
+            <p>flavorful Desserts</p>
+            <div class="price">₹150</div>
+        </div>
+        
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Delicious Indian Bites. All rights reserved.</p>
+</footer>
+
+</body>
+</htm
